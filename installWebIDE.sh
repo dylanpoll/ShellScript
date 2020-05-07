@@ -10,9 +10,8 @@
 #npm install
 #editor config/config.js
 #echo "starting the webIDE"
-#DIRECTORY=$(pwd)
-#sudo nohup node server.js
-#echo "the webIDE is running as a background process... change this shell script by removing the nohup from the -  sudo nohup node server.js  - field to run it in your current terminal."
-#echo " you can start the webIDE by typing the before mentioned field "
+#echo "to run the server as a background process type sudo nohup node server.js"
+#echo "type the same field without nohup to run it in this terminal"
 #echo "the directory where you will want to run the command will be" 
+#DIRECTORY=$(pwd)
 #echo $DIRECTORY
