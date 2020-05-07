@@ -12,8 +12,8 @@ npm install
 editor config/config.js
 echo "to change ownership of the directory of the webIDE use this.(its imortant, the webIDE will run when deployed under your credentials... a node bot with root privledges is scary."
 echo "sudo chown -r username directory"
-echo "to run the server as a background process type: sudo nohup node server.js &"
-echo "to run it in this terminal type: sudo node server.js"
+echo "to run the server as a background process type: nohup node server.js &"
+echo "to run it in this terminal type: node server.js"
 echo "the directory where you will want to run the command will be"
 DIRECTORY=$(pwd)
 echo $DIRECTORY
