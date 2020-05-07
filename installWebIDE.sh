@@ -10,6 +10,7 @@ mkdir tmp
 npm config set tmp tmp
 npm install
 editor config/config.js
+echo "to change ownership of the directory of the webIDE use this.(its imortant, the webIDE will run when deployed under your credentials... a node bot with root privledges is scary."
 echo "sudo chown -r 755 username:directory"
 echo "if you don't know what the 755 is for, please read about it.. you can set this up different ways."
 echo "to run the server as a background process type: sudo nohup node server.js &"
