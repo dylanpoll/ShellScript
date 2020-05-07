@@ -10,8 +10,10 @@ mkdir tmp
 npm config set tmp tmp
 npm install
 editor config/config.js
+echo "sudo chown -r 755 username:directory"
+echo "if you don't know what the 755 is for, please read about it.. you can set this up different ways."
 echo "to run the server as a background process type: sudo nohup node server.js &"
 echo "to run it in this terminal type: sudo node server.js"
-echo "the directory where you will want to run the command will be" 
+echo "the directory where you will want to run the command will be"
 DIRECTORY=$(pwd)
 echo $DIRECTORY
