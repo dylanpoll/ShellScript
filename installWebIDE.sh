@@ -9,7 +9,6 @@
 #npm config set tmp tmp
 #npm install
 #editor config/config.js
-#echo "starting the webIDE"
 #echo "to run the server as a background process type sudo nohup node server.js"
 #echo "type the same field without nohup to run it in this terminal"
 #echo "the directory where you will want to run the command will be" 
