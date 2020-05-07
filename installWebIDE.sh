@@ -1,7 +1,7 @@
 #cd
-#wget https://nodejs.org/dist/v8.11.3/node-v8.11.3-linux-armv6l.tar.xz
-#tar -xvf node-v8.11.3-linux-armv6l.tar.xz
-#cd node-v8.11.3-linux-armv6l
+#wget https://nodejs.org/dist/v11.15.0/node-v11.15.0-linux-armv6l.tar.gz
+#tar -xvf node-v11.15.0-linux-armv6l.tar.gz.tar.gz
+#cd node-v11.15.0-linux-armv6l.tar.gz
 #sudo cp -R * /usr/local/
 #git clone git://github.com/adafruit/Adafruit-WebIDE.git
 #cd Adafruit-WebIDE
