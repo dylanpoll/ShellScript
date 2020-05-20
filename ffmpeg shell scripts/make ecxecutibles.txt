@@ -1,0 +1,7 @@
+cd /usr/bin
+sudo cp lxterminal xterm
+cd Desktop
+chmod +x startStream.sh
+chmod +x startWebCamWindow.sh
+chmod +x stopStream.sh
+
